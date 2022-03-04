@@ -128,7 +128,7 @@ img {
 
 /* tablet */
 
-@media screen and (min-width: 420px) and (max-width: 768px) {
+@media screen and (min-width: 420px) and (max-width: 992px) {
     /* text_rules */
     * :not(h1),
     * :not(h3) {
