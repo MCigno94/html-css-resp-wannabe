@@ -147,7 +147,8 @@ img {
         display: flex;
         margin: 2rem auto;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: stretch;
+        justify-content: center;
     }
     #steps .row>.left,
     #steps .row>.central,
