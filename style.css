@@ -142,6 +142,10 @@ img {
         font-size: 1.5rem;
     }
     /* position_rules */
+    img {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
     .row {
         width: 100%;
         display: flex;
@@ -150,22 +154,17 @@ img {
         align-items: stretch;
         justify-content: center;
     }
+    #lezioni .row>.right,
+    #lezioni .row>.left,
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
         width: 50%;
     }
-    #lezioni .row>.right,
-    #lezioni .row>.left {
-        width: 50%;
-    }
-    img {
-        max-width: 100%;
-        margin-top: 2rem;
-    }
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
+        width: 75%;
         margin-top: 0;
     }
 }
