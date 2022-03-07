@@ -98,6 +98,9 @@ img {
         font-size: 1.75rem;
     }
     /* position_rules */
+    .container.grey {
+        background-color: #F2F2CD;
+    }
     .row {
         width: 95%;
         display: flex;
